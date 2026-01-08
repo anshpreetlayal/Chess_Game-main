@@ -1,0 +1,45 @@
+========================================
+    HOW TO PLAY CHESS GAME
+========================================
+
+🎮 WEB VERSION (Recommended - Interactive!)
+========================================
+
+1. Double-click "index.html"
+   OR
+   Right-click "index.html" → Open With → Your Browser
+
+2. The game will open in your web browser
+
+3. Start playing!
+   - Click on a piece to select it
+   - Click on a highlighted square to move
+   - Use the buttons on the left to:
+     * Start a New Game
+     * Undo your last move
+
+🐍 PYTHON VERSION (Command-Line)
+========================================
+
+1. Open Terminal/Command Prompt
+
+2. Navigate to this folder:
+   cd "C:\Users\anshp\Downloads\Chess_Game-main\Chess_Game-main"
+
+3. Run the game:
+   python main.py
+
+   (or use python3 on Mac/Linux)
+
+4. Enter coordinates when prompted (e.g., "6 4" then "4 4")
+
+========================================
+
+💡 TIPS:
+- The web version is more visual and easier to play
+- Valid moves are highlighted in yellow
+- Your selected piece is highlighted in green
+- Enemy pieces you can capture have a red circle
+- Move history and captured pieces are shown on the left
+
+Enjoy your game! ♔♕♖♗♘♙

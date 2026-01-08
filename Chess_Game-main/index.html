@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>♔ Chess Game ♚</h1>
+        </header>
+
+        <div class="game-container">
+            <div class="info-panel">
+                <div class="player-info">
+                    <h2 id="current-player">White's Turn</h2>
+                    <div class="status-message" id="status-message">Select a piece to move</div>
+                </div>
+
+                <div class="game-controls">
+                    <button id="new-game-btn" class="btn btn-primary">New Game</button>
+                    <button id="undo-btn" class="btn btn-secondary">Undo Move</button>
+                </div>
+
+                <div class="move-history">
+                    <h3>Move History</h3>
+                    <div id="move-list" class="move-list"></div>
+                </div>
+
+                <div class="captured-pieces">
+                    <h3>Captured Pieces</h3>
+                    <div class="captured-section">
+                        <div class="captured-label">White:</div>
+                        <div id="captured-white" class="captured-container"></div>
+                    </div>
+                    <div class="captured-section">
+                        <div class="captured-label">Black:</div>
+                        <div id="captured-black" class="captured-container"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="board-container">
+                <div class="coordinates-top">
+                    <span>a</span><span>b</span><span>c</span><span>d</span>
+                    <span>e</span><span>f</span><span>g</span><span>h</span>
+                </div>
+
+                <div class="board-wrapper">
+                    <div class="coordinates-left">
+                        <span>8</span><span>7</span><span>6</span><span>5</span>
+                        <span>4</span><span>3</span><span>2</span><span>1</span>
+                    </div>
+
+                    <div id="chess-board" class="chess-board"></div>
+
+                    <div class="coordinates-right">
+                        <span>8</span><span>7</span><span>6</span><span>5</span>
+                        <span>4</span><span>3</span><span>2</span><span>1</span>
+                    </div>
+                </div>
+
+                <div class="coordinates-bottom">
+                    <span>a</span><span>b</span><span>c</span><span>d</span>
+                    <span>e</span><span>f</span><span>g</span><span>h</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Click on a piece to select it, then click on a valid square to move.</p>
+        </footer>
+    </div>
+
+    <script src="chess.js"></script>
+</body>
+</html>
