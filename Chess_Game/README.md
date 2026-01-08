@@ -11,15 +11,16 @@ A beautiful, interactive chess game playable in your web browser! No installatio
 ## ✨ Features
 
 ### Web Version (Interactive)
-- **Beautiful UI** - Modern, gradient design with smooth animations
+- **Stunning Wooden UI** - Rich brown, woody aesthetic with elegant golden accents
 - **Interactive Gameplay** - Click to select pieces and see valid moves highlighted
-- **Visual Feedback** - Selected pieces and valid moves are clearly highlighted
-- **Move History** - Track all moves made during the game
-- **Captured Pieces** - See which pieces have been captured by each player
+- **Visual Feedback** - Selected pieces and valid moves clearly highlighted
+- **Move History Panel** - Track all moves on the right side panel
+- **Captured Pieces Display** - See captured pieces organized by color
 - **Undo Functionality** - Made a mistake? Undo your last move!
-- **New Game** - Start fresh anytime with a single click
+- **New Game Button** - Start fresh anytime with a single click
 - **Responsive Design** - Works on desktop, tablet, and mobile devices
 - **No Installation Required** - Just open in a browser and play!
+- **Classic Chess Ambiance** - Dark, sophisticated design perfect for focused gameplay
 
 ### Python CLI Version
 - Command-line interface for classic gameplay
@@ -77,10 +78,11 @@ Chess_Game-main/
 ## 🎨 Visual Features (Web Version)
 
 ### Board
-- Classic checkerboard pattern with beige and brown squares
-- Row and column coordinates (a-h, 1-8)
-- Smooth hover effects
-- Professional shadow and border
+- **Wooden Aesthetic** - Rich brown and cream checkerboard pattern
+- **Classic Coordinates** - Golden lettered/numbered labels (a-h, 1-8)
+- **Premium Feel** - Deep wooden borders with shadow effects
+- **Smooth Interactions** - Hover effects and piece animations
+- **Dark Ambiance** - Brown, woody, and black color scheme
 
 ### Pieces
 - Beautiful Unicode chess symbols
@@ -89,9 +91,9 @@ Chess_Game-main/
 - Drop shadow for 3D effect
 
 ### Highlights
-- **Green** - Selected piece
-- **Yellow** - Valid move squares
-- **Green dot** - Empty squares you can move to
+- **Golden Brown** - Selected piece with glowing border
+- **Tan Brown** - Valid move squares
+- **Golden dots** - Empty squares you can move to
 - **Red circle** - Enemy pieces you can capture
 
 ## 🎯 Chess Rules Implemented
@@ -155,8 +157,8 @@ The game automatically adapts to your screen size:
 ### Technologies Used
 
 - **HTML5** - Structure and semantics
-- **CSS3** - Styling, animations, and gradients
-- **Vanilla JavaScript** - Game logic (no frameworks!)
+- **CSS3** - Custom wooden theme with gradients and shadows
+- **Vanilla JavaScript** - Game logic (no frameworks needed!)
 - **Python 3.6+** - CLI version with object-oriented design
 
 ### Key Features
@@ -166,6 +168,19 @@ The game automatically adapts to your screen size:
 - Modular code structure
 - Efficient move validation
 - State management for undo functionality
+- Custom color palette for wooden aesthetic
+- Flexbox layout with board on left, controls on right
+
+### Design Elements
+
+- **Color Palette**:
+  - Background: Dark brown gradient (#2c1810 → #1a0f08)
+  - Container: Woody brown with golden borders (#8b6f47)
+  - Light Squares: Cream beige (#e8d5b7)
+  - Dark Squares: Rich brown (#6d4e31)
+  - Accents: Golden tan (#d4a574)
+- **Typography**: Georgia serif font for classic elegance
+- **Layout**: Board positioned left, controls/history on right side
 
 ## 📝 Future Enhancements
 
